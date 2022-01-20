@@ -2,7 +2,7 @@
 
 Annotations are stored in git based on container [name](https://github.com/jptmoore/annotations/tree/master/demo) which is broken down into its [main](https://github.com/jptmoore/annotations/tree/master/demo/main) details and a [collection](https://github.com/jptmoore/annotations/tree/master/demo/collection) of individual annotations. 
 
-This repository is served by [Miiify](https://github.com/nationalarchives/miiify) running on a [k8s](https://github.com/nationalarchives/miiify/tree/main/k8s) deployment over at miiify.rocks
+This repository is served by [Miiify](https://github.com/nationalarchives/miiify) running on a [k8s](https://github.com/nationalarchives/miiify/tree/main/k8s) deployment over at [miiify.rocks](http://miiify.rocks/)
 
 ```sh
 curl -s miiify.rocks/annotations/demo/ | jq
