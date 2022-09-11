@@ -5,7 +5,7 @@ Annotations are stored in git based on container [name](https://github.com/jptmo
 This repository is served by [Miiify](https://github.com/nationalarchives/miiify) running on a [k8s](https://github.com/nationalarchives/miiify/tree/main/k8s) deployment over at [miiify.rocks](http://miiify.rocks/)
 
 ```sh
-curl -s miiify.rocks/annotations/demo/ | jq
+curl -s https://miiify.rocks/annotations/demo/ | jq
 ```
 
 ```json
